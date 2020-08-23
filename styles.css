@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.main {
+    background-color: hsl(210, 46%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 250px;
+    width: 650px;
+    display: flex;
+    font-family: 'Manrope';
+}
+
+.card-image {
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.card-content-heading {
+    font-size: 18px;
+    color: #3e3f40;
+    font-weight: bold;
+    height: 100px;
+    margin: 0px;
+}
+
+.card-content-details {
+    font-size: 13px;
+    color: #9e9c98;
+    height: 100px;
+}
+
+.card-content-contact {
+    display: flex;
+    height: 40px;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.card-content-contact-info {
+    font-size: 13px;
+    width: 80%;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.card-content-contact-info p:first-child {
+    color: #3e3f40;
+    margin: 0;
+    font-weight: bold;
+}
+
+.card-content-contact-info p:last-child {
+    color: #9e9c98;
+    margin-top: 0.25rem;
+}
+
+.share-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.share-icon-background {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    cursor: pointer;
+}
