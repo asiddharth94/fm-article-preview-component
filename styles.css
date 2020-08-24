@@ -51,7 +51,7 @@ body {
 
 .card-content-details {
     font-size: 0.8125rem;
-    color: #9e9c98;
+    color: #656461;
 }
 
 .card-content-contact {
@@ -79,7 +79,7 @@ body {
 }
 
 .card-content-contact-info p:last-child {
-    color: #9e9c98;
+    color: #656461;
     margin-top: 0.25rem;
 }
 
@@ -142,10 +142,6 @@ body {
     top: 40px;
 }
 
-.toggle-popup {
-    display: none;
-}
-
 @media screen and (max-width: 375px) {
     /* Mobile css */
 
@@ -177,4 +173,27 @@ body {
     .card-content-details {
         font-size: 0.78rem;
     }
+
+    .mobile-action-state-popup{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        justify-content: flex-start;
+        width: 100%;
+        z-index: 1;
+        left: 0;
+        top: 200px;
+        height: 70px;
+        padding-left: 15px;
+    }
+
+    .mobile-share-icon-action-state {
+        position: absolute;
+        z-index: 2;
+        right: 30px;
+        bottom: 20px;
+    }
+}
+
+.toggle-display {
+    display: none;
 }
